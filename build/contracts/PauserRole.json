@@ -79,15 +79,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"PauserAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"PauserRemoved\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addPauser\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isPauser\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renouncePauser\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/roles/PauserRole.sol\":\"PauserRole\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/roles/PauserRole.sol\":{\"keccak256\":\"0xd1b5c934bab36d753c22987ad98c7614cb50ebf641371a83c96f8138619d7c30\",\"urls\":[\"bzz-raw://69c4bb822caae3d1bfd38e81f03b6d618d4d83cbb8e9f8236d28e1c4fe1d0d81\",\"dweb:/ipfs/QmWamstbFhdySmocF2TSKYVLLZF24JG4aXMvHiRdWKv3RA\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"PauserAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"PauserRemoved\",\"type\":\"event\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addPauser\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isPauser\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renouncePauser\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/roles/PauserRole.sol\":\"PauserRole\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/roles/PauserRole.sol\":{\"keccak256\":\"0xd1b5c934bab36d753c22987ad98c7614cb50ebf641371a83c96f8138619d7c30\",\"urls\":[\"bzz-raw://69c4bb822caae3d1bfd38e81f03b6d618d4d83cbb8e9f8236d28e1c4fe1d0d81\",\"dweb:/ipfs/QmWamstbFhdySmocF2TSKYVLLZF24JG4aXMvHiRdWKv3RA\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\nimport \"../../GSN/Context.sol\";\nimport \"../Roles.sol\";\n\ncontract PauserRole is Context {\n    using Roles for Roles.Role;\n\n    event PauserAdded(address indexed account);\n    event PauserRemoved(address indexed account);\n\n    Roles.Role private _pausers;\n\n    constructor () internal {\n        _addPauser(_msgSender());\n    }\n\n    modifier onlyPauser() {\n        require(isPauser(_msgSender()), \"PauserRole: caller does not have the Pauser role\");\n        _;\n    }\n\n    function isPauser(address account) public view returns (bool) {\n        return _pausers.has(account);\n    }\n\n    function addPauser(address account) public onlyPauser {\n        _addPauser(account);\n    }\n\n    function renouncePauser() public {\n        _removePauser(_msgSender());\n    }\n\n    function _addPauser(address account) internal {\n        _pausers.add(account);\n        emit PauserAdded(account);\n    }\n\n    function _removePauser(address account) internal {\n        _pausers.remove(account);\n        emit PauserRemoved(account);\n    }\n}\n",
-  "sourcePath": "C:\\Users\\Gayardo\\Desktop\\monnaieWork\\ERC721\\contracts\\access\\roles\\PauserRole.sol",
+  "sourcePath": "C:\\Users\\Gayardo\\Desktop\\monnaieWork\\ERC721\\contracts\\library\\access\\roles\\PauserRole.sol",
   "ast": {
-    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/roles/PauserRole.sol",
+    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/roles/PauserRole.sol",
     "exportedSymbols": {
       "PauserRole": [
         2410
@@ -108,18 +108,18 @@
         "src": "0:23:11"
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/GSN/Context.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/GSN/Context.sol",
         "file": "../../GSN/Context.sol",
         "id": 2306,
         "nodeType": "ImportDirective",
         "scope": 2411,
-        "sourceUnit": 27,
+        "sourceUnit": 922,
         "src": "25:31:11",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/Roles.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/Roles.sol",
         "file": "../Roles.sol",
         "id": 2307,
         "nodeType": "ImportDirective",
@@ -138,10 +138,10 @@
               "id": 2308,
               "name": "Context",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 26,
+              "referencedDeclaration": 921,
               "src": "104:7:11",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Context_$26",
+                "typeIdentifier": "t_contract$_Context_$921",
                 "typeString": "contract Context"
               }
             },
@@ -151,7 +151,7 @@
           }
         ],
         "contractDependencies": [
-          26
+          921
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -159,7 +159,7 @@
         "id": 2410,
         "linearizedBaseContracts": [
           2410,
-          26
+          921
         ],
         "name": "PauserRole",
         "nodeType": "ContractDefinition",
@@ -326,7 +326,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14,
+                          "referencedDeclaration": 909,
                           "src": "329:10:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -433,7 +433,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14,
+                              "referencedDeclaration": 909,
                               "src": "404:10:11",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -882,7 +882,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14,
+                          "referencedDeclaration": 909,
                           "src": "760:10:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -1345,7 +1345,7 @@
     "src": "0:1041:11"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/roles/PauserRole.sol",
+    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/roles/PauserRole.sol",
     "exportedSymbols": {
       "PauserRole": [
         2410
@@ -1366,18 +1366,18 @@
         "src": "0:23:11"
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/GSN/Context.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/GSN/Context.sol",
         "file": "../../GSN/Context.sol",
         "id": 2306,
         "nodeType": "ImportDirective",
         "scope": 2411,
-        "sourceUnit": 27,
+        "sourceUnit": 922,
         "src": "25:31:11",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/Roles.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/Roles.sol",
         "file": "../Roles.sol",
         "id": 2307,
         "nodeType": "ImportDirective",
@@ -1396,10 +1396,10 @@
               "id": 2308,
               "name": "Context",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 26,
+              "referencedDeclaration": 921,
               "src": "104:7:11",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Context_$26",
+                "typeIdentifier": "t_contract$_Context_$921",
                 "typeString": "contract Context"
               }
             },
@@ -1409,7 +1409,7 @@
           }
         ],
         "contractDependencies": [
-          26
+          921
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1417,7 +1417,7 @@
         "id": 2410,
         "linearizedBaseContracts": [
           2410,
-          26
+          921
         ],
         "name": "PauserRole",
         "nodeType": "ContractDefinition",
@@ -1584,7 +1584,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14,
+                          "referencedDeclaration": 909,
                           "src": "329:10:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -1691,7 +1691,7 @@
                               "name": "_msgSender",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 14,
+                              "referencedDeclaration": 909,
                               "src": "404:10:11",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -2140,7 +2140,7 @@
                           "name": "_msgSender",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 14,
+                          "referencedDeclaration": 909,
                           "src": "760:10:11",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_address_payable_$",
@@ -2608,7 +2608,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-11-30T22:09:07.903Z",
+  "updatedAt": "2019-11-30T23:02:53.968Z",
   "devdoc": {
     "methods": {}
   },

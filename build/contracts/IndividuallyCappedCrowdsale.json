@@ -246,15 +246,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"CapperAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"CapperRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"purchaser\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"TokensPurchased\",\"type\":\"event\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addCapper\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"}],\"name\":\"buyTokens\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"}],\"name\":\"getCap\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"}],\"name\":\"getContribution\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isCapper\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"rate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceCapper\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"cap\",\"type\":\"uint256\"}],\"name\":\"setCap\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract IERC20\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"wallet\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"weiRaised\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Crowdsale with per-beneficiary caps.\",\"methods\":{\"buyTokens(address)\":{\"details\":\"low level token purchase ***DO NOT OVERRIDE*** This function has a non-reentrancy guard, so it shouldn't be called by another `nonReentrant` function.\",\"params\":{\"beneficiary\":\"Recipient of the token purchase\"}},\"getCap(address)\":{\"details\":\"Returns the cap of a specific beneficiary.\",\"params\":{\"beneficiary\":\"Address whose cap is to be checked\"},\"return\":\"Current cap for individual beneficiary\"},\"getContribution(address)\":{\"details\":\"Returns the amount contributed so far by a specific beneficiary.\",\"params\":{\"beneficiary\":\"Address of contributor\"},\"return\":\"Beneficiary contribution so far\"},\"rate()\":{\"return\":\"the number of token units a buyer gets per wei.\"},\"setCap(address,uint256)\":{\"details\":\"Sets a specific beneficiary's maximum contribution.\",\"params\":{\"beneficiary\":\"Address to be capped\",\"cap\":\"Wei limit for individual contribution\"}},\"token()\":{\"return\":\"the token being sold.\"},\"wallet()\":{\"return\":\"the address where funds are collected.\"},\"weiRaised()\":{\"return\":\"the amount of wei raised.\"}},\"title\":\"IndividuallyCappedCrowdsale\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/crowdsale/validation/IndividuallyCappedCrowdsale.sol\":\"IndividuallyCappedCrowdsale\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/roles/CapperRole.sol\":{\"keccak256\":\"0x791c47a17a3d2376dc5ad45c1747e7322df65650d67ef381be920d2b13312ef4\",\"urls\":[\"bzz-raw://4d22f42cabf870714ca6d519f4a23d68e2483c766fe31e62c8261b83120093bf\",\"dweb:/ipfs/QmPMbfPx7afNebsapnvEg3pTHxq6dBEYiPdcD7XuWKX7FG\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/crowdsale/Crowdsale.sol\":{\"keccak256\":\"0xe612eb8a3023c1a4f4d7e2d0aaf7f19c25e9d772c46a6e95790ddb42ba7baa99\",\"urls\":[\"bzz-raw://8b2bba5f74117ed67570e3b73bbd3ff51153275a0fcefe34df964ccba92ae028\",\"dweb:/ipfs/QmWZF4DnkWZZYzVHz8pAxbLFRxmNiKWE2n1Chd4w2rXWYh\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/crowdsale/validation/IndividuallyCappedCrowdsale.sol\":{\"keccak256\":\"0x1821e2ed5c6e9d626ef80f3211152d36e52c19e28ba2eb160842b6cc85a1187a\",\"urls\":[\"bzz-raw://aabf44d79c442f77cfbc0c04e5b0965e0b63223efdbaaceb360b52538d154fe7\",\"dweb:/ipfs/QmXUJJzZLUJtCdLCC6ZGuNzNkeBWGjFhwXagafJpdzy5be\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xe5bb0f57cff3e299f360052ba50f1ea0fff046df2be070b6943e0e3c3fdad8a9\",\"urls\":[\"bzz-raw://59fd025151435da35faa8093a5c7a17de02de9d08ad27275c5cdf05050820d91\",\"dweb:/ipfs/QmQMvwEcPhoRXzbXyrdoeRtvLoifUW9Qh7Luho7bmUPRkc\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/token/ERC20/SafeERC20.sol\":{\"keccak256\":\"0x6f2c9955d65c522b80f4b8792f076512d2df947d2112cbc4d98a4781ed42ede2\",\"urls\":[\"bzz-raw://7d8ec81683520c06baeef3f7e06cd82bd6fd5fa611f26857f475f6c829540aff\",\"dweb:/ipfs/QmTDkFzKnrpiV1UKnSoiZAHPuguWzokrr4pFbSPvyaSo56\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/utils/Address.sol\":{\"keccak256\":\"0x70df50e240407aa50915ad14f61b1a901fa335b37de20955b99ed647be756af0\",\"urls\":[\"bzz-raw://9404711f3206610c08ea97fa52c7b6b4d2e9d536e96fc4b7210aa7e24f796c36\",\"dweb:/ipfs/QmZDzpVzjoap13SuPEq5pVCrmdjoKVZnTsQPLKXAbynTTW\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/utils/ReentrancyGuard.sol\":{\"keccak256\":\"0xb7a6d8bc2b5dbb581c9fb8c1adb41464ed2e72bde31898cbf984ea1abf5b6b29\",\"urls\":[\"bzz-raw://b3d7320cd2c0acd71828565a5375afe6c5550424ea61373c9e52f772c94700fd\",\"dweb:/ipfs/QmYxCZtifQmhoujS2DQRmkNj2uka91woBDCMtKf6cBjRZM\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"CapperAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"CapperRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"purchaser\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"TokensPurchased\",\"type\":\"event\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addCapper\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"}],\"name\":\"buyTokens\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"}],\"name\":\"getCap\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"}],\"name\":\"getContribution\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isCapper\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"rate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"renounceCapper\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"beneficiary\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"cap\",\"type\":\"uint256\"}],\"name\":\"setCap\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"token\",\"outputs\":[{\"internalType\":\"contract IERC20\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"wallet\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"weiRaised\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Crowdsale with per-beneficiary caps.\",\"methods\":{\"buyTokens(address)\":{\"details\":\"low level token purchase ***DO NOT OVERRIDE*** This function has a non-reentrancy guard, so it shouldn't be called by another `nonReentrant` function.\",\"params\":{\"beneficiary\":\"Recipient of the token purchase\"}},\"getCap(address)\":{\"details\":\"Returns the cap of a specific beneficiary.\",\"params\":{\"beneficiary\":\"Address whose cap is to be checked\"},\"return\":\"Current cap for individual beneficiary\"},\"getContribution(address)\":{\"details\":\"Returns the amount contributed so far by a specific beneficiary.\",\"params\":{\"beneficiary\":\"Address of contributor\"},\"return\":\"Beneficiary contribution so far\"},\"rate()\":{\"return\":\"the number of token units a buyer gets per wei.\"},\"setCap(address,uint256)\":{\"details\":\"Sets a specific beneficiary's maximum contribution.\",\"params\":{\"beneficiary\":\"Address to be capped\",\"cap\":\"Wei limit for individual contribution\"}},\"token()\":{\"return\":\"the token being sold.\"},\"wallet()\":{\"return\":\"the address where funds are collected.\"},\"weiRaised()\":{\"return\":\"the amount of wei raised.\"}},\"title\":\"IndividuallyCappedCrowdsale\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/crowdsale/validation/IndividuallyCappedCrowdsale.sol\":\"IndividuallyCappedCrowdsale\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/GSN/Context.sol\":{\"keccak256\":\"0x90a3995645af7562d84b9d69363ffa5ae7217714ab61e951bf7bc450f40e4061\",\"urls\":[\"bzz-raw://216ef9d6b614db4eb46970b4e84903f2534a45572dd30a79f0041f1a5830f436\",\"dweb:/ipfs/QmNPrJ4MWKUAWzKXpUqeyKRUfosaoANZAqXgvepdrCwZAG\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/roles/CapperRole.sol\":{\"keccak256\":\"0x791c47a17a3d2376dc5ad45c1747e7322df65650d67ef381be920d2b13312ef4\",\"urls\":[\"bzz-raw://4d22f42cabf870714ca6d519f4a23d68e2483c766fe31e62c8261b83120093bf\",\"dweb:/ipfs/QmPMbfPx7afNebsapnvEg3pTHxq6dBEYiPdcD7XuWKX7FG\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/crowdsale/Crowdsale.sol\":{\"keccak256\":\"0xe612eb8a3023c1a4f4d7e2d0aaf7f19c25e9d772c46a6e95790ddb42ba7baa99\",\"urls\":[\"bzz-raw://8b2bba5f74117ed67570e3b73bbd3ff51153275a0fcefe34df964ccba92ae028\",\"dweb:/ipfs/QmWZF4DnkWZZYzVHz8pAxbLFRxmNiKWE2n1Chd4w2rXWYh\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/crowdsale/validation/IndividuallyCappedCrowdsale.sol\":{\"keccak256\":\"0x1821e2ed5c6e9d626ef80f3211152d36e52c19e28ba2eb160842b6cc85a1187a\",\"urls\":[\"bzz-raw://aabf44d79c442f77cfbc0c04e5b0965e0b63223efdbaaceb360b52538d154fe7\",\"dweb:/ipfs/QmXUJJzZLUJtCdLCC6ZGuNzNkeBWGjFhwXagafJpdzy5be\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/math/SafeMath.sol\":{\"keccak256\":\"0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076\",\"urls\":[\"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f\",\"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/token/ERC20/IERC20.sol\":{\"keccak256\":\"0xe5bb0f57cff3e299f360052ba50f1ea0fff046df2be070b6943e0e3c3fdad8a9\",\"urls\":[\"bzz-raw://59fd025151435da35faa8093a5c7a17de02de9d08ad27275c5cdf05050820d91\",\"dweb:/ipfs/QmQMvwEcPhoRXzbXyrdoeRtvLoifUW9Qh7Luho7bmUPRkc\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/token/ERC20/SafeERC20.sol\":{\"keccak256\":\"0x6f2c9955d65c522b80f4b8792f076512d2df947d2112cbc4d98a4781ed42ede2\",\"urls\":[\"bzz-raw://7d8ec81683520c06baeef3f7e06cd82bd6fd5fa611f26857f475f6c829540aff\",\"dweb:/ipfs/QmTDkFzKnrpiV1UKnSoiZAHPuguWzokrr4pFbSPvyaSo56\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/utils/Address.sol\":{\"keccak256\":\"0x70df50e240407aa50915ad14f61b1a901fa335b37de20955b99ed647be756af0\",\"urls\":[\"bzz-raw://9404711f3206610c08ea97fa52c7b6b4d2e9d536e96fc4b7210aa7e24f796c36\",\"dweb:/ipfs/QmZDzpVzjoap13SuPEq5pVCrmdjoKVZnTsQPLKXAbynTTW\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/utils/ReentrancyGuard.sol\":{\"keccak256\":\"0xb7a6d8bc2b5dbb581c9fb8c1adb41464ed2e72bde31898cbf984ea1abf5b6b29\",\"urls\":[\"bzz-raw://b3d7320cd2c0acd71828565a5375afe6c5550424ea61373c9e52f772c94700fd\",\"dweb:/ipfs/QmYxCZtifQmhoujS2DQRmkNj2uka91woBDCMtKf6cBjRZM\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\nimport \"../../math/SafeMath.sol\";\nimport \"../Crowdsale.sol\";\nimport \"../../access/roles/CapperRole.sol\";\n\n/**\n * @title IndividuallyCappedCrowdsale\n * @dev Crowdsale with per-beneficiary caps.\n */\ncontract IndividuallyCappedCrowdsale is Crowdsale, CapperRole {\n    using SafeMath for uint256;\n\n    mapping(address => uint256) private _contributions;\n    mapping(address => uint256) private _caps;\n\n    /**\n     * @dev Sets a specific beneficiary's maximum contribution.\n     * @param beneficiary Address to be capped\n     * @param cap Wei limit for individual contribution\n     */\n    function setCap(address beneficiary, uint256 cap) external onlyCapper {\n        _caps[beneficiary] = cap;\n    }\n\n    /**\n     * @dev Returns the cap of a specific beneficiary.\n     * @param beneficiary Address whose cap is to be checked\n     * @return Current cap for individual beneficiary\n     */\n    function getCap(address beneficiary) public view returns (uint256) {\n        return _caps[beneficiary];\n    }\n\n    /**\n     * @dev Returns the amount contributed so far by a specific beneficiary.\n     * @param beneficiary Address of contributor\n     * @return Beneficiary contribution so far\n     */\n    function getContribution(address beneficiary) public view returns (uint256) {\n        return _contributions[beneficiary];\n    }\n\n    /**\n     * @dev Extend parent behavior requiring purchase to respect the beneficiary's funding cap.\n     * @param beneficiary Token purchaser\n     * @param weiAmount Amount of wei contributed\n     */\n    function _preValidatePurchase(address beneficiary, uint256 weiAmount) internal view {\n        super._preValidatePurchase(beneficiary, weiAmount);\n        // solhint-disable-next-line max-line-length\n        require(_contributions[beneficiary].add(weiAmount) <= _caps[beneficiary], \"IndividuallyCappedCrowdsale: beneficiary's cap exceeded\");\n    }\n\n    /**\n     * @dev Extend parent behavior to update beneficiary contributions.\n     * @param beneficiary Token purchaser\n     * @param weiAmount Amount of wei contributed\n     */\n    function _updatePurchasingState(address beneficiary, uint256 weiAmount) internal {\n        super._updatePurchasingState(beneficiary, weiAmount);\n        _contributions[beneficiary] = _contributions[beneficiary].add(weiAmount);\n    }\n}\n",
-  "sourcePath": "C:\\Users\\Gayardo\\Desktop\\monnaieWork\\ERC721\\contracts\\crowdsale\\validation\\IndividuallyCappedCrowdsale.sol",
+  "sourcePath": "C:\\Users\\Gayardo\\Desktop\\monnaieWork\\ERC721\\contracts\\library\\crowdsale\\validation\\IndividuallyCappedCrowdsale.sol",
   "ast": {
-    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/crowdsale/validation/IndividuallyCappedCrowdsale.sol",
+    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/crowdsale/validation/IndividuallyCappedCrowdsale.sol",
     "exportedSymbols": {
       "IndividuallyCappedCrowdsale": [
         3798
@@ -275,7 +275,7 @@
         "src": "0:23:24"
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/math/SafeMath.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/math/SafeMath.sol",
         "file": "../../math/SafeMath.sol",
         "id": 3685,
         "nodeType": "ImportDirective",
@@ -286,7 +286,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/crowdsale/Crowdsale.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/crowdsale/Crowdsale.sol",
         "file": "../Crowdsale.sol",
         "id": 3686,
         "nodeType": "ImportDirective",
@@ -297,7 +297,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/roles/CapperRole.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/roles/CapperRole.sol",
         "file": "../../access/roles/CapperRole.sol",
         "id": 3687,
         "nodeType": "ImportDirective",
@@ -347,7 +347,7 @@
           }
         ],
         "contractDependencies": [
-          26,
+          921,
           2196,
           3005,
           14172
@@ -361,7 +361,7 @@
           2196,
           3005,
           14172,
-          26
+          921
         ],
         "name": "IndividuallyCappedCrowdsale",
         "nodeType": "ContractDefinition",
@@ -985,7 +985,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14400,
+                        "referencedDeclaration": 14388,
                         "src": "1648:5:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_IndividuallyCappedCrowdsale_$3798",
@@ -1376,7 +1376,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14400,
+                        "referencedDeclaration": 14388,
                         "src": "2177:5:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_IndividuallyCappedCrowdsale_$3798",
@@ -1656,7 +1656,7 @@
     "src": "0:2321:24"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/crowdsale/validation/IndividuallyCappedCrowdsale.sol",
+    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/crowdsale/validation/IndividuallyCappedCrowdsale.sol",
     "exportedSymbols": {
       "IndividuallyCappedCrowdsale": [
         3798
@@ -1677,7 +1677,7 @@
         "src": "0:23:24"
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/math/SafeMath.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/math/SafeMath.sol",
         "file": "../../math/SafeMath.sol",
         "id": 3685,
         "nodeType": "ImportDirective",
@@ -1688,7 +1688,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/crowdsale/Crowdsale.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/crowdsale/Crowdsale.sol",
         "file": "../Crowdsale.sol",
         "id": 3686,
         "nodeType": "ImportDirective",
@@ -1699,7 +1699,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/access/roles/CapperRole.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/access/roles/CapperRole.sol",
         "file": "../../access/roles/CapperRole.sol",
         "id": 3687,
         "nodeType": "ImportDirective",
@@ -1749,7 +1749,7 @@
           }
         ],
         "contractDependencies": [
-          26,
+          921,
           2196,
           3005,
           14172
@@ -1763,7 +1763,7 @@
           2196,
           3005,
           14172,
-          26
+          921
         ],
         "name": "IndividuallyCappedCrowdsale",
         "nodeType": "ContractDefinition",
@@ -2387,7 +2387,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14400,
+                        "referencedDeclaration": 14388,
                         "src": "1648:5:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_IndividuallyCappedCrowdsale_$3798",
@@ -2778,7 +2778,7 @@
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14400,
+                        "referencedDeclaration": 14388,
                         "src": "2177:5:24",
                         "typeDescriptions": {
                           "typeIdentifier": "t_super$_IndividuallyCappedCrowdsale_$3798",
@@ -3063,7 +3063,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-11-30T22:09:08.068Z",
+  "updatedAt": "2019-11-30T23:02:54.000Z",
   "devdoc": {
     "details": "Crowdsale with per-beneficiary caps.",
     "methods": {

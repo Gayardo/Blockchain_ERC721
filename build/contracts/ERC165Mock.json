@@ -38,25 +38,25 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"registerInterface\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"supportsInterface(bytes4)\":{\"details\":\"See {IERC165-supportsInterface}.     * Time complexity O(1), guaranteed to always use less than 30 000 gas.\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/mocks/ERC165Mock.sol\":\"ERC165Mock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/introspection/ERC165.sol\":{\"keccak256\":\"0x01aedbf24e121a744262e04c7815b2a4c8ce604dee4829c5cff00943a594ccf3\",\"urls\":[\"bzz-raw://999ab32a6498d8ad8db61d47c3774aae2ff919acceebe2aeb50879bef62642c3\",\"dweb:/ipfs/QmephAYF5hoymu9qCFK6mURM2kZJCxU4ntUb4KTf1miVPT\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/introspection/IERC165.sol\":{\"keccak256\":\"0xe0ed10f53955c35eecb02724538650a155aa940be3f0a54cd3bde6c6b0c6e48c\",\"urls\":[\"bzz-raw://7dcfda88e3225987245908c3296f3559752647036804325ebfaa9fd1545161c3\",\"dweb:/ipfs/QmXxx5rHfLL57zdgyyyG9MMv4XGN7bpVSc2MuDcaCgto6u\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/mocks/ERC165Mock.sol\":{\"keccak256\":\"0x0089fcbe6226979ac905e036bcfe4dde2368585a506f1977255dfad03dd986bd\",\"urls\":[\"bzz-raw://88aaf5a0ae652fa7008d3991a4be523db7c96dbe08dbea96c0da220104ce4ccb\",\"dweb:/ipfs/QmNi5bB4AS91p28tcAGhfh1FDgzAGcGD15hehViE2WsbPp\"]}},\"version\":1}",
-  "bytecode": "0x608060405261001a6301ffc9a760e01b61001f60201b60201c565b610127565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156100bb576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f4552433136353a20696e76616c696420696e746572666163652069640000000081525060200191505060405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b61029d806101366000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063214cdb80146100a0575b600080fd5b6100866004803603602081101561005157600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191690602001909291905050506100ed565b604051808215151515815260200191505060405180910390f35b6100eb600480360360208110156100b657600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050610154565b005b6000806000837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900460ff169050919050565b61015d81610160565b50565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156101fc576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f4552433136353a20696e76616c696420696e746572666163652069640000000081525060200191505060405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff0219169083151502179055505056fea265627a7a7231582044a763fa8d3cf75ee2da083b7cfdef6b873fc8a21d7374b30350b74e0e37c6d264736f6c634300050c0032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063214cdb80146100a0575b600080fd5b6100866004803603602081101561005157600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191690602001909291905050506100ed565b604051808215151515815260200191505060405180910390f35b6100eb600480360360208110156100b657600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050610154565b005b6000806000837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900460ff169050919050565b61015d81610160565b50565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156101fc576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f4552433136353a20696e76616c696420696e746572666163652069640000000081525060200191505060405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff0219169083151502179055505056fea265627a7a7231582044a763fa8d3cf75ee2da083b7cfdef6b873fc8a21d7374b30350b74e0e37c6d264736f6c634300050c0032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"registerInterface\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{\"supportsInterface(bytes4)\":{\"details\":\"See {IERC165-supportsInterface}.     * Time complexity O(1), guaranteed to always use less than 30 000 gas.\"}}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/mocks/ERC165Mock.sol\":\"ERC165Mock\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/introspection/ERC165.sol\":{\"keccak256\":\"0x01aedbf24e121a744262e04c7815b2a4c8ce604dee4829c5cff00943a594ccf3\",\"urls\":[\"bzz-raw://999ab32a6498d8ad8db61d47c3774aae2ff919acceebe2aeb50879bef62642c3\",\"dweb:/ipfs/QmephAYF5hoymu9qCFK6mURM2kZJCxU4ntUb4KTf1miVPT\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/introspection/IERC165.sol\":{\"keccak256\":\"0xe0ed10f53955c35eecb02724538650a155aa940be3f0a54cd3bde6c6b0c6e48c\",\"urls\":[\"bzz-raw://7dcfda88e3225987245908c3296f3559752647036804325ebfaa9fd1545161c3\",\"dweb:/ipfs/QmXxx5rHfLL57zdgyyyG9MMv4XGN7bpVSc2MuDcaCgto6u\"]},\"/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/mocks/ERC165Mock.sol\":{\"keccak256\":\"0x0089fcbe6226979ac905e036bcfe4dde2368585a506f1977255dfad03dd986bd\",\"urls\":[\"bzz-raw://88aaf5a0ae652fa7008d3991a4be523db7c96dbe08dbea96c0da220104ce4ccb\",\"dweb:/ipfs/QmNi5bB4AS91p28tcAGhfh1FDgzAGcGD15hehViE2WsbPp\"]}},\"version\":1}",
+  "bytecode": "0x608060405261001a6301ffc9a760e01b61001f60201b60201c565b610127565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156100bb576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f4552433136353a20696e76616c696420696e746572666163652069640000000081525060200191505060405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff02191690831515021790555050565b61029d806101366000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063214cdb80146100a0575b600080fd5b6100866004803603602081101561005157600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191690602001909291905050506100ed565b604051808215151515815260200191505060405180910390f35b6100eb600480360360208110156100b657600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050610154565b005b6000806000837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900460ff169050919050565b61015d81610160565b50565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156101fc576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f4552433136353a20696e76616c696420696e746572666163652069640000000081525060200191505060405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff0219169083151502179055505056fea265627a7a723158204005dbf0d72b21c904eea8010774c827366aeae5a4c7e692e04a14be6b07c92e64736f6c634300050c0032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063214cdb80146100a0575b600080fd5b6100866004803603602081101561005157600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191690602001909291905050506100ed565b604051808215151515815260200191505060405180910390f35b6100eb600480360360208110156100b657600080fd5b8101908080357bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19169060200190929190505050610154565b005b6000806000837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060009054906101000a900460ff169050919050565b61015d81610160565b50565b63ffffffff60e01b817bffffffffffffffffffffffffffffffffffffffffffffffffffffffff191614156101fc576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601c8152602001807f4552433136353a20696e76616c696420696e746572666163652069640000000081525060200191505060405180910390fd5b6001600080837bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19167bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200190815260200160002060006101000a81548160ff0219169083151502179055505056fea265627a7a723158204005dbf0d72b21c904eea8010774c827366aeae5a4c7e692e04a14be6b07c92e64736f6c634300050c0032",
   "sourceMap": "64:140:61:-;;;718:40:39;385:10;737:20;;718:18;;;:40;;:::i;:::-;64:140:61;;1442:190:39;1532:10;1517:25;;:11;:25;;;;;1509:66;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1621:4;1585:20;:33;1606:11;1585:33;;;;;;;;;;;;;;;;;;:40;;;;;;;;;;;;;;;;;;1442:190;:::o;64:140:61:-;;;;;;;",
   "deployedSourceMap": "64:140:61:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;64:140:61;;;;;;;;;;;;;;;;;;;;;;;;915:133:39;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;915:133:39;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;100:102:61;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;100:102:61;;;;;;;;;;;;;;;;;;;;:::i;:::-;;915:133:39;985:4;1008:20;:33;1029:11;1008:33;;;;;;;;;;;;;;;;;;;;;;;;;;;1001:40;;915:133;;;:::o;100:102:61:-;164:31;183:11;164:18;:31::i;:::-;100:102;:::o;1442:190:39:-;1532:10;1517:25;;:11;:25;;;;;1509:66;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1621:4;1585:20;:33;1606:11;1585:33;;;;;;;;;;;;;;;;;;:40;;;;;;;;;;;;;;;;;;1442:190;:::o",
   "source": "pragma solidity ^0.5.0;\n\nimport \"../introspection/ERC165.sol\";\n\ncontract ERC165Mock is ERC165 {\n    function registerInterface(bytes4 interfaceId) public {\n        _registerInterface(interfaceId);\n    }\n}\n",
-  "sourcePath": "C:/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/mocks/ERC165Mock.sol",
+  "sourcePath": "C:/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/mocks/ERC165Mock.sol",
   "ast": {
-    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/mocks/ERC165Mock.sol",
+    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/mocks/ERC165Mock.sol",
     "exportedSymbols": {
       "ERC165Mock": [
-        6532
+        6706
       ]
     },
-    "id": 6533,
+    "id": 6707,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 6518,
+        "id": 6692,
         "literals": [
           "solidity",
           "^",
@@ -67,12 +67,12 @@
         "src": "0:23:61"
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/introspection/ERC165.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/introspection/ERC165.sol",
         "file": "../introspection/ERC165.sol",
-        "id": 6519,
+        "id": 6693,
         "nodeType": "ImportDirective",
-        "scope": 6533,
-        "sourceUnit": 5342,
+        "scope": 6707,
+        "sourceUnit": 5516,
         "src": "25:37:61",
         "symbolAliases": [],
         "unitAlias": ""
@@ -83,40 +83,40 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 6520,
+              "id": 6694,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5341,
+              "referencedDeclaration": 5515,
               "src": "87:6:61",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC165_$5341",
+                "typeIdentifier": "t_contract$_ERC165_$5515",
                 "typeString": "contract ERC165"
               }
             },
-            "id": 6521,
+            "id": 6695,
             "nodeType": "InheritanceSpecifier",
             "src": "87:6:61"
           }
         ],
         "contractDependencies": [
-          5341,
-          5574
+          5515,
+          5748
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 6532,
+        "id": 6706,
         "linearizedBaseContracts": [
-          6532,
-          5341,
-          5574
+          6706,
+          5515,
+          5748
         ],
         "name": "ERC165Mock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 6530,
+              "id": 6704,
               "nodeType": "Block",
               "src": "154:48:61",
               "statements": [
@@ -126,11 +126,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 6527,
+                        "id": 6701,
                         "name": "interfaceId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6523,
+                        "referencedDeclaration": 6697,
                         "src": "183:11:61",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes4",
@@ -145,18 +145,18 @@
                           "typeString": "bytes4"
                         }
                       ],
-                      "id": 6526,
+                      "id": 6700,
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5340,
+                      "referencedDeclaration": 5514,
                       "src": "164:18:61",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
                         "typeString": "function (bytes4)"
                       }
                     },
-                    "id": 6528,
+                    "id": 6702,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -170,29 +170,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 6529,
+                  "id": 6703,
                   "nodeType": "ExpressionStatement",
                   "src": "164:31:61"
                 }
               ]
             },
             "documentation": null,
-            "id": 6531,
+            "id": 6705,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "registerInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6524,
+              "id": 6698,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6523,
+                  "id": 6697,
                   "name": "interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6531,
+                  "scope": 6705,
                   "src": "127:18:61",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -201,7 +201,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 6522,
+                    "id": 6696,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "127:6:61",
@@ -217,36 +217,36 @@
               "src": "126:20:61"
             },
             "returnParameters": {
-              "id": 6525,
+              "id": 6699,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "154:0:61"
             },
-            "scope": 6532,
+            "scope": 6706,
             "src": "100:102:61",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 6533,
+        "scope": 6707,
         "src": "64:140:61"
       }
     ],
     "src": "0:205:61"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/mocks/ERC165Mock.sol",
+    "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/mocks/ERC165Mock.sol",
     "exportedSymbols": {
       "ERC165Mock": [
-        6532
+        6706
       ]
     },
-    "id": 6533,
+    "id": 6707,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 6518,
+        "id": 6692,
         "literals": [
           "solidity",
           "^",
@@ -257,12 +257,12 @@
         "src": "0:23:61"
       },
       {
-        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/introspection/ERC165.sol",
+        "absolutePath": "/C/Users/Gayardo/Desktop/monnaieWork/ERC721/contracts/library/introspection/ERC165.sol",
         "file": "../introspection/ERC165.sol",
-        "id": 6519,
+        "id": 6693,
         "nodeType": "ImportDirective",
-        "scope": 6533,
-        "sourceUnit": 5342,
+        "scope": 6707,
+        "sourceUnit": 5516,
         "src": "25:37:61",
         "symbolAliases": [],
         "unitAlias": ""
@@ -273,40 +273,40 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 6520,
+              "id": 6694,
               "name": "ERC165",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5341,
+              "referencedDeclaration": 5515,
               "src": "87:6:61",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC165_$5341",
+                "typeIdentifier": "t_contract$_ERC165_$5515",
                 "typeString": "contract ERC165"
               }
             },
-            "id": 6521,
+            "id": 6695,
             "nodeType": "InheritanceSpecifier",
             "src": "87:6:61"
           }
         ],
         "contractDependencies": [
-          5341,
-          5574
+          5515,
+          5748
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 6532,
+        "id": 6706,
         "linearizedBaseContracts": [
-          6532,
-          5341,
-          5574
+          6706,
+          5515,
+          5748
         ],
         "name": "ERC165Mock",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 6530,
+              "id": 6704,
               "nodeType": "Block",
               "src": "154:48:61",
               "statements": [
@@ -316,11 +316,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 6527,
+                        "id": 6701,
                         "name": "interfaceId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 6523,
+                        "referencedDeclaration": 6697,
                         "src": "183:11:61",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes4",
@@ -335,18 +335,18 @@
                           "typeString": "bytes4"
                         }
                       ],
-                      "id": 6526,
+                      "id": 6700,
                       "name": "_registerInterface",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5340,
+                      "referencedDeclaration": 5514,
                       "src": "164:18:61",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_bytes4_$returns$__$",
                         "typeString": "function (bytes4)"
                       }
                     },
-                    "id": 6528,
+                    "id": 6702,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -360,29 +360,29 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 6529,
+                  "id": 6703,
                   "nodeType": "ExpressionStatement",
                   "src": "164:31:61"
                 }
               ]
             },
             "documentation": null,
-            "id": 6531,
+            "id": 6705,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "registerInterface",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 6524,
+              "id": 6698,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6523,
+                  "id": 6697,
                   "name": "interfaceId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 6531,
+                  "scope": 6705,
                   "src": "127:18:61",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -391,7 +391,7 @@
                     "typeString": "bytes4"
                   },
                   "typeName": {
-                    "id": 6522,
+                    "id": 6696,
                     "name": "bytes4",
                     "nodeType": "ElementaryTypeName",
                     "src": "127:6:61",
@@ -407,19 +407,19 @@
               "src": "126:20:61"
             },
             "returnParameters": {
-              "id": 6525,
+              "id": 6699,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "154:0:61"
             },
-            "scope": 6532,
+            "scope": 6706,
             "src": "100:102:61",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 6533,
+        "scope": 6707,
         "src": "64:140:61"
       }
     ],
@@ -431,7 +431,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.19",
-  "updatedAt": "2019-11-28T18:41:27.980Z",
+  "updatedAt": "2019-11-30T23:00:21.505Z",
   "devdoc": {
     "methods": {
       "supportsInterface(bytes4)": {

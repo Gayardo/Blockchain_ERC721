@@ -2,14 +2,14 @@ pragma solidity ^0.5.0;
 
 
 
-import "./GSN/Context.sol";
-import "./token/ERC721/IERC721.sol";
-import "./token/ERC721/IERC721Receiver.sol";
-import "./math/SafeMath.sol";
-import "./utils/Address.sol";
-import "./drafts/Counters.sol";
-import "./introspection/ERC165.sol";
-import "./access/roles/WhitelistedRole.sol";
+import "./library/GSN/Context.sol";
+import "./library/token/ERC721/IERC721.sol";
+import "./library/token/ERC721/IERC721Receiver.sol";
+import "./library/math/SafeMath.sol";
+import "./library/utils/Address.sol";
+import "./library/drafts/Counters.sol";
+import "./library/introspection/ERC165.sol";
+import "./library/access/roles/WhitelistedRole.sol";
 
 /**
  * @title ERC721 Non-Fungible Token Standard basic implementation
@@ -59,6 +59,7 @@ contract Token is Context, ERC165, IERC721, WhitelistedRole {
 
      enum typeAnimal { Cow, Horse, Chicken, Pig, Sheep, Donkey, Rabbit }
      enum Color { Brown, Black, White, Red, Blue }
+
      struct Animal {
         uint id;
         typeAnimal race;
@@ -385,6 +386,7 @@ contract Token is Context, ERC165, IERC721, WhitelistedRole {
         _mint(to, _currentId);
         return true;
     }
+    
     function deadAnimal(uint id) public onlyWhitelisted() {
         _burn(msg.sender, id);
 
